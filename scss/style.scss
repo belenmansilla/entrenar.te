@@ -1,6 +1,7 @@
 @import "variables";
 @import "animacion";
 @import "footer";
+@import "blog";
 
 body {
     background-color:$color-secondary;
@@ -28,16 +29,6 @@ body {
     }
 }
 
-.div__card--color {
-    background-color: $color-card;
-} 
-.div__card--titlecenter {
-    text-align: center;
-}
-.blog__blog1 {
-    justify-content: center;
-    align-items: center;
-}
 .GaleriaContacto {
     display: grid;
     grid-template-columns: 60% 40%;
