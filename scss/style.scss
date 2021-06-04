@@ -1,0 +1,46 @@
+@import "variables";
+@import "animacion";
+@import "footer";
+
+body {
+    background-color:$color-secondary;
+    font-family: 'Farro', sans-serif;
+    nav {
+        background-color: $color-navfooter;
+        a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: $color-hover;
+        }
+    }
+    section {
+        margin: 40px;
+        span {
+            color:$color-primary;
+        }
+
+    }
+}
+
+.div__card--color {
+    background-color: $color-card;
+} 
+.div__card--titlecenter {
+    text-align: center;
+}
+.blog__blog1 {
+    justify-content: center;
+    align-items: center;
+}
+.GaleriaContacto {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100%;
+    margin: 10px;
+}

@@ -1,0 +1,186 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@-webkit-keyframes slideUp {
+  0% {
+    transform: translateY(30px); }
+  100% {
+    transform: translateY(0); } }
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(30px); }
+  100% {
+    transform: translateY(0); } }
+
+@-webkit-keyframes slideRight {
+  0% {
+    transform: translateX(30px); }
+  100% {
+    transform: translateY(0); } }
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(30px); }
+  100% {
+    transform: translateY(0); } }
+
+@-webkit-keyframes slideDown {
+  0% {
+    transform: translateY(-30px); }
+  100% {
+    transform: translateY(0); } }
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-30px); }
+  100% {
+    transform: translateY(0); } }
+
+@-webkit-keyframes slideLeft {
+  0% {
+    transform: translateX(-30px); }
+  100% {
+    transform: translateY(0); } }
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-30px); }
+  100% {
+    transform: translateY(0); } }
+
+@-webkit-keyframes rotate180 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+
+@keyframes rotate180 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+
+@-webkit-keyframes rotate360 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+@keyframes rotate360 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+@-webkit-keyframes rotateInfinite {
+  0% {
+    transform: rotate(0); }
+  100% {
+    transform: rotate(360deg); } }
+
+@keyframes rotateInfinite {
+  0% {
+    transform: rotate(0); }
+  100% {
+    transform: rotate(360deg); } }
+
+.animate {
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: both;
+  animation-direction: alternate; }
+
+.animate-with-delay {
+  animation-delay: 0.5s; }
+
+.animate-fade-in {
+  animation-name: fadeIn; }
+
+.animate-fade-out {
+  animation-name: fadeOut; }
+
+.animate-slide-up {
+  animation-name: slideUp; }
+
+.animate-slide-right {
+  animation-name: slideRight; }
+
+.animate-slide-down {
+  animation-name: slideDown; }
+
+.animate-slide-left {
+  animation-name: slideLeft; }
+
+.animate-fade-in-slide-up {
+  animation-name: fadeIn, slideUp; }
+
+.animate-rotate-180 {
+  animation-name: rotate180; }
+
+.animate-rotate-360 {
+  animation-name: rotate360; }
+
+.animate-rotate-infinite {
+  animation: rotateInfinite 1s linear infinite; }
+
+body {
+  background-color: #D5DFE5;
+  font-family: 'Farro', sans-serif; }
+  body nav {
+    background-color: #567568; }
+    body nav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none; }
+    body nav a:hover {
+      background-color: #B49594; }
+  body section {
+    margin: 40px; }
+    body section span {
+      color: #7F9172; }
+
+footer {
+  background-color: #567568; }
+  footer ul li {
+    list-style: none; }
+
+.div__card--color {
+  background-color: #C9B1BD; }
+
+.div__card--titlecenter {
+  text-align: center; }
+
+.blog__blog1 {
+  justify-content: center;
+  align-items: center; }
+
+.GaleriaContacto {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 100%;
+  margin: 10px; }
